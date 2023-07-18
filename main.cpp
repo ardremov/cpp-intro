@@ -1,5 +1,41 @@
 #include <iostream>
 
+// function declaration
+int add(int x, int y);
+
+// function definition
+int add(int x, int y)
+{
+  return x + y;
+}
+
+// function declaration
+int subtract(int x, int y);
+
+// function definition
+int subtract(int x, int y)
+{
+  return x - y;
+}
+
+// function declaration
+int multiply(int x, int y);
+
+// function definition
+int multiply(int x, int y)
+{
+  return x * y;
+}
+
+// function declaration
+int divide(int x, int y);
+
+// function definition
+int divide(int x, int y)
+{
+  return x / y;
+}
+
 int main()
 {
   std::cout << "Hello, world!" << std::endl;
