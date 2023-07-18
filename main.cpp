@@ -53,10 +53,10 @@ int main()
   std::cout << x + y + z << " is the sum of " << x << " and " << y << " and " << z << std::endl;
 
   int w = 8;
-  std::cout << x + y + z + w << " is the sum of " << x << " and " << y << " and " << z << " and " << w << std::endl;
+  std::cout << x * y * z * w << " is the product of " << x << " and " << y << " and " << z << " and " << w << std::endl;
 
   int v = 9;
-  std::cout << x + y + v << " is the sum of " << x << " and " << y << " and " << v << std::endl;
+  std::cout << x / y << " is the division of " << x << " and " << y << ", and " << v << " is " << v <<std::endl;
 
   return 0;
 }
