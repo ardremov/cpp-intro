@@ -1,4 +1,5 @@
 #include <iostream>
+#include "problems.hpp"
 
 // function declaration
 int add(int x, int y);
@@ -58,5 +59,11 @@ int main()
   int v = 9;
   std::cout << x / y << " is the division of " << x << " and " << y << ", and " << v << " is " << v <<std::endl;
 
+  Circle c;
+  c.radius = 10;
+  double a = c.area();
+  std::cout << "The area of your circle is " << a << std::endl;
+
   return 0;
 }
+
